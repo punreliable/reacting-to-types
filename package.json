@@ -1,0 +1,24 @@
+{
+  "name": "reacting-to-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punreliable/reacting-to-types.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Brian Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punreliable/reacting-to-types/issues"
+  },
+  "homepage": "https://github.com/punreliable/reacting-to-types#readme"
+}
