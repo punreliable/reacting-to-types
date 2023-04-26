@@ -1,7 +1,6 @@
 {
   "name": "reacting-to-typescript-basics",
   "version": "1.0.0",
-  "description": "",
   "main": "no-typescript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/punreliable/reacting-to-types/issues"
   },
-  "homepage": "https://github.com/punreliable/reacting-to-types#readme"
+  "homepage": "https://github.com/punreliable/reacting-to-types#readme",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
 }
