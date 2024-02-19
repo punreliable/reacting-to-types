@@ -1,28 +1,21 @@
-// Primitives: number, string, boolean
-// More complex?: arrays, objects
-// Function Types, parameters
+//@ts-check
 
-// Primities
+// console.log('Compiler is running?');
 
-let age: number;
-age = 12;
+function print(value: any) {
+	console.log(value);
 
-let userName: string;
-userName = 'bsmith';
-
-let isInstructor: boolean;
-isInstructor = false;
-
-// More complex types
-
-let hobbies: string[];
-hobbies = ['Sports', 'Cooking'];
-
-let person: {
-    name: string;
-    age: number;
 }
-person = {
-name: 'Max',
-age: 32
-};
+
+
+function insertAtBeginning<T>(array: T[], value: T) {
+	const newArray = [value, ...array];
+	return newArray;
+}
+
+const demoArray = [ 1, 2, 3 ];
+const updatedArray = insertAtBeginning(demoArray, -1);
+const stringArray = insertAtBeginning(['a','b','c'], 'd');
+
+print(updatedArray);
+print(stringArray);
